@@ -1,0 +1,118 @@
+nav {
+    background-color: rgb(255, 54, 27);
+    height: 80px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+    position: relative; /* Added position relative */
+}
+.img-penzu{
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;
+}
+.p-d-div{
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    padding-right: 600px;
+    padding-top: 5px;
+    gap: 20px;
+}
+.sign-div{
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    margin-right: 220px;
+    margin-left: -150px;
+    padding-top: 5px;
+}
+.arr-mov .arr-img{
+    height: 20px;
+    margin-top: 12px;
+    position: absolute;
+    right: 240px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.content-box {
+    position: absolute;
+    top: calc(100% + 10px); /* Position below the nav-link */
+    left: 0;
+    width: 200px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}
+
+.nav-item:hover .content-box {
+    display: block;
+}
+
+@media screen and (max-width:736px){
+    .img-penzu{
+        margin-left: 10px;
+    }
+    .navbar-nav .nav-link {
+        color: black !important;
+        position: relative; /* Added position relative */
+    }
+    .p-d-div{
+        
+        padding-right: 10px;
+        padding-top: 50px;
+        gap: 20px;
+    }
+    .sign-div{
+        margin-right: 20px;
+        margin-left: 50px;
+        padding-top: 5px;
+    }
+}
+@media only screen and (max-width: 924px) {
+    .img-penzu{
+        margin-left: 10px;
+    }
+    .navbar-nav .nav-link {
+        color: black !important;
+        position: relative; /* Added position relative */
+    }
+    .p-d-div{
+        
+        padding-right: 10px;
+        padding-top: 50px;
+        gap: 20px;
+    }
+    .sign-div{
+        margin-right: 20px;
+        margin-left: 50px;
+        padding-top: 5px;
+    }
+    /* Your styles for medium-sized screens go here */
+}
+@media only screen and (max-width: 1000px) {
+    .img-penzu{
+        margin-left: 10px;
+    }
+    .navbar-nav .nav-link {
+        color: black !important;
+        position: relative; /* Added position relative */
+    }
+    .p-d-div{
+        
+        padding-right: 10px;
+        padding-top: 50px;
+        gap: 20px;
+    }
+    .sign-div{
+        margin-right: 20px;
+        margin-left: 50px;
+        padding-top: 5px;
+    }
+    /* Your styles for medium-sized screens go here */
+}
